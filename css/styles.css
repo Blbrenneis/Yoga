@@ -9,10 +9,6 @@
 
 */
 
-* {
-    margin: 0; 
-    padding: 0;
-}
 
 body {
     font-size: 1.1em;
@@ -45,6 +41,7 @@ nav {
     float: left;
     text-align: center;
     font-family: 'Playfair Display', serif;
+
 }
 
 nav ul {
@@ -66,10 +63,12 @@ nav ul li a:hover {
 }
 
 #main {
-    width: 446px;
+    width: 660px;
     padding: 10px;
     padding-bottom: 25px;
     float: left;
+    font-family: 'Playfair Display';
+    font-size: 22px;
     color: black;
     border-left: 2px;
     border-right: 2px;
@@ -83,7 +82,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-figure{
+figure {
     padding-top: 10px;
     text-align: center;
 }
@@ -97,7 +96,7 @@ aside {
     width: 190px;
     margin: 0 5px 0 5px;
     padding: 10px;
-    float: right;
+    float: none;
 }
 
 aside p {
@@ -118,6 +117,8 @@ h3 {
     padding-top: 0.5em;
 }
 
+
+
 footer {
     width: 910px;
     margin: 0;
@@ -137,7 +138,8 @@ footer {
     border: none;
     border-radius: 25px;
 
-}/* navigation for footer */
+}
+/* navigation for footer */
 footer a:link {
     color: rgb(0, 128, 128);
     text-decoration: none;
@@ -151,4 +153,28 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* table */
+ 
+table {
+    align-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: small;
+}
+
+tr {
+  
+}
+
+th {
+    height: 20px;
+}
+td {
+    width: 30%;
+    font-family: fantasy;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
 }
