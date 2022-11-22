@@ -1,0 +1,180 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Brooklyn B
+   Date:   11/9/22  
+   
+  
+
+*/
+
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('wood.jpg');
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+header {
+    width: 910px; /* reduced by 20px to accommodate shadow */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 15px 15px 5px 0 rgb(230, 230, 230);
+    border-radius: 25px;
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: rgb(204, 255, 204);
+    border-radius: 10px;
+    color: black;
+}
+
+#main {
+    width: 660px;
+    padding: 10px;
+    padding-bottom: 25px;
+    float: left;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    color: black;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dotted;
+    border-width: thick;
+    border-color: rgb(230, 230, 230);
+}
+
+#main p {
+    text-indent: 1.5em;
+    text-align: center;
+}
+
+figure {
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 5px;
+}
+
+aside {
+    width: 190px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: none;
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    clear: both;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+
+}
+/* navigation for footer */
+footer a:link {
+    color: rgb(0, 128, 128);
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: rgb(102, 0, 102);
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* table */
+ 
+table {
+    align-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: small;
+}
+
+tr {
+  
+}
+
+th {
+    height: 20px;
+}
+td {
+    width: 30%;
+    font-family: fantasy;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
